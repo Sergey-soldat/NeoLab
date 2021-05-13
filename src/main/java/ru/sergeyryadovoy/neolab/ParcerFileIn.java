@@ -25,9 +25,6 @@ public class ParcerFileIn {
             System.out.println(animals[i]);
             i++;
 
-
-
-
 //            animalArray.setWeight(animalArray[0]);
 //            animalArray.setSize(animalArray[1]);
 //            animalArray.setFood(animalArray[2]);
@@ -36,17 +33,14 @@ public class ParcerFileIn {
 //            System.out.println(kozlyatina.getSize());
 //            System.out.println(kozlyatina.getFood());
 
-
 //            for (int i = 0; i < kozl.length; i++) {
 //                kozl[i] = animals;
 //                System.out.println(kozl[i]);
 //            }
 
-
 //            System.out.println(kozlyatina);
 //            System.out.println(kozlyatina);
         }
         r.close();
-
     }
 }

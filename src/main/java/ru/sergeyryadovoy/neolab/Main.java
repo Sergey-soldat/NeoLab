@@ -11,6 +11,10 @@ public class Main {
             ParcerFileIn parcerFileIn = new ParcerFileIn();
             ParcerFileIn.ParcerFileIn();
 
+            ParcerCondition parcerCondition = new ParcerCondition();
+            ParcerCondition.parcerCondition();
+
+
 //        File file = new File("FileIn.txt");
 //        Scanner r = new Scanner(file);
 //        Animal animals = new Animal("ВЕС", "РАЗМЕР", "ЕДА");
