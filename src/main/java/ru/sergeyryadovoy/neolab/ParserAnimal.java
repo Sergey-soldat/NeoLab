@@ -5,11 +5,13 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ParcerFileIn {
-    public static void ParcerFileIn() throws FileNotFoundException {
+
+    Animal[] animals = new Animal[3];
+    public void ParcerFileIn() throws FileNotFoundException {
         File file = new File("FileIn.txt");
         Scanner r = new Scanner(file);
 //        Animal animals = new Animal("ВЕС", "РАЗМЕР", "ЕДА");
-        Animal[] animals = new Animal[3];
+//        Animal[]   animals = new Animal[3];
         int i = 0;
         while (r.hasNext()) {
             String line = r.nextLine();
