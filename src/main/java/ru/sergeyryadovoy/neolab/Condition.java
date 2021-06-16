@@ -40,4 +40,6 @@ public class Condition {
     public void setFood(String food){
         this.food = food;
     }
+
+
 }
